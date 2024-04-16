@@ -105,7 +105,7 @@ def hello():
 def api(city):
     return Weather(city).today()
 
-@app.route("/api/1_haftalik/<city>")
+@app.route("/api/v1/1_haftalik/<city>")
 def bir_haftalik_obhavo(city):
     return Weather(city).one_week()
 
