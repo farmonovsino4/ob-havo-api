@@ -101,7 +101,7 @@ def mainpage():
 def hello():
     return "Salom ob havo malumotlarini olivchi apiga xush kelibsiz"
 
-@app.route("/api/bugun/<city>")
+@app.route("/api/v1/bugun/<city>")
 def api(city):
     return Weather(city).today()
 
