@@ -99,7 +99,7 @@ def mainpage():
 
 @app.route("/api")
 def hello():
-    return "Salom ob havo malumotlarini olivchi apiga xush kelibsiz"
+    return "Salom ob havo malumotlarini olivchi apiga xush kelibsiz<br>apidan foydalanish uchun quyidagicha yozing: http://127.0.0.1:5000/api/v1/bugun/[viloyat nomi] masalan:<br> <a href='api/v1/bugun/toshkent'>http://127.0.0.1:5000/api/v1/bugun/toshkent</a>"
 
 @app.route("/api/v1/bugun/<city>")
 def api(city):
