@@ -109,7 +109,9 @@ def api(city):
 def bir_haftalik_obhavo(city):
     return Weather(city).one_week()
 
-
+@app.route('/<error>')
+def error(error):
+    return f"\"{error}\" page not found"
 
 
 app.run()
