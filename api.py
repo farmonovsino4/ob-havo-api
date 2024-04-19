@@ -110,4 +110,6 @@ def bir_haftalik_obhavo(city):
     return Weather(city).one_week()
 
 
+
+
 app.run()
