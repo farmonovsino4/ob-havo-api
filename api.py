@@ -1,4 +1,5 @@
 from flask import Flask
+from weather import Weather
 
 app = Flask(__name__)
 

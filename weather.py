@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class WeatherNotFoundError(Exception):
     """
-    Weather not found, make sure you write the city name correctly, use Weather().help()
+    Ob havo malumoti topilmadi hudud nomini to'g'ri yozganligingizga ishonch hosil qiling yoki Weather().help() dan foydalaning
     """
 
 class Weather:
